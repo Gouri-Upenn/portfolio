@@ -1,0 +1,39 @@
+h1{
+    color: #F8A805; /* Deep navy color from the screenshot */
+    font-size: 2rem; /* Example size, tweak as you like */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+h2 {
+    color: #F8A805; /* Deep navy color from the screenshot */
+    font-size: 1rem; /* Example size, tweak as you like */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    color: darkgrey; /* Dark gray for body text */
+    font-size: 1rem; /* Example size */
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .scroll-box {
+    height: 100vh;            /* Full viewport height */
+    overflow-y: auto;         /* Enable vertical scroll if needed */
+    padding: 3rem;            /* Optional spacing inside */
+    background-color: transparent; /* Transparent background */
+  }
+  
+  /* Optional - style your text */
+  .scroll-box h2 {
+    color: #F8A805;
+    margin-bottom: 0.5rem;
+  }
+  
+  .scroll-box p {
+    color: darkgrey;
+    line-height: 1.6;
+  }
+  

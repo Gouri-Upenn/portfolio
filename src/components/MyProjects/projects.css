@@ -1,0 +1,38 @@
+
+.projectImages {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Create 3 equal-width columns */
+    grid-template-rows: repeat(2, auto); /* Automatically adjust the row height for 2 rows */
+    color: var(--secondary-color);
+    padding: 2.5rem 5%;
+    gap: 1.5rem;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    justify-items: center; /* Center content horizontally within each grid cell */
+    align-items: center; /* Center content vertically within each grid cell */   
+    /* column-gap: 0rem; /* Reduced spacing between columns */
+    /*row-gap: 3rem; Keeps row spacing larger */
+
+
+}
+.heading{
+display:flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100vw;
+}
+
+.project1{
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.project1:hover {
+    transform: scale(1.1) translateY(-10px); /* Moves image upward */ /* Increases size by 20% on hover */
+    box-shadow: 0 8px 20px rgba(142,0,255,1); /* Shadow effect */
+}

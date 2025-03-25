@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background:transparent;
+    font-family: 'poppins';
+}
+
+/*Default light theme*/
+:root{
+    --primary-color: conic-gradient(from 70deg at center center, rgba(4,24,24,1) 0%, rgba(142,0,255,1) 31%, rgba(0,0,0,1) 59%, rgba(42,49,20,1) 81%);
+    /*conic-gradient(from 219deg at center center, rgba(10,86,86,1) 0%,
+     rgba(137,32,253,1) 56%, rgba(17,17,16,1) 78%, rgba(0,255,255,1) 100%);*/
+    /*conic-gradient(from 290deg at center center, rgba(10,86,86,1) 0%,
+     rgba(137,32,253,1) 56%, rgba(17,17,16,1) 78%, rgba(0,255,255,1) 100%);*/
+    
+    /*conic-gradient(from 70deg at center center, rgba(10,86,86,1) 0%,
+     rgba(253,32,253,1) 30%, rgba(86,86,62,1) 66%, rgba(0,255,255,1) 100%);*/
+    --secondary-color:darkgrey;
+}
+
+
+body{
+    background: var(--primary-color);
+    background-size: cover;
+    background-blend-mode: overlay,overlay,overlay,normal;
+   /* opacity: 0.7;*/
+    margin: 0;
+    height:100vh;
+    color:var(--secondary-color);
+    overflow:hidden;
+    overflow-y:scroll;
+    z-index: 2;
+}
+

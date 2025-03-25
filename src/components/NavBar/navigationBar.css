@@ -1,0 +1,84 @@
+.navigationBar{
+    height:5rem;
+    width:100vw;
+    margin:0 ;
+    padding:1rem 2rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    /* position:sticky; */
+    top:0;
+    z-index:1000;
+}
+
+.Logo{
+    padding:0;
+    width: 100px;
+    height: 100px;
+    box-sizing: inherit;
+    cursor:pointer;
+    margin:0; 
+    transition: 0.5s; 
+}
+
+
+/* Hover Effect */
+.Logo:hover {
+    filter:drop-shadow(0 0 15px rgb(3, 41, 101)) 
+            drop-shadow(0 0 30px rgb(30, 1, 54)) 
+            drop-shadow(0 0 45px rgb(85, 0, 255))
+            drop-shadow(0 0 45px rgb(126, 61, 255))
+            drop-shadow(0 0 45px rgb(5, 36, 87)
+            
+            ); 
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+
+}
+
+.btn {
+    text-transform: uppercase;
+    margin: 0; /* Reset margins */
+   
+}
+
+.btn:hover .btn-slide-show-text1 {
+    margin-left: 65px;
+}
+
+.btn-moving-gradient {
+    display: flex;
+    height: 48px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#F8A805;
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s; 
+}
+
+.btn-moving-gradient:hover {
+    transform: scale(1.1) translateY(-5px); /* Moves image upward */ /* Increases size by 20% on hover */
+    transition: 0.5s ease-in-out;
+    background-position: 100% 0px;
+}
+
+.btn-moving-gradient--blue {
+    background-image: linear-gradient(90deg, rgb(61, 135, 255), rgba(142,0,255,1), rgb(126, 61, 255), rgb(58, 134, 255));
+}
+
+
+.desktopMenu{
+    display:flex;
+    gap:2rem;
+    margin: 2rem 0;
+    cursor:pointer;
+    color: var(--secondary-color);
+    letter-spacing: 6px;
+    overflow: visible; /* Ensures highlight is fully shown */
+}
